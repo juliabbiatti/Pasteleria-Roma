@@ -1,47 +1,50 @@
-*{
-    margin:  0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.menu{
+.menu {
     background-color: rgb(228, 128, 13);
     text-align: center;
     width: 100%
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
-    color:rgb(255, 255, 255);
-    font-size:1.4 rem;
-    font: weight 500px;;
+    color: rgb(255, 255, 255);
+    font-size: 1.4 rem;
+    font: weight 500px;
+    ;
     font-style: oblique;
     padding: 2rem;
 
 }
-.menu li{
+
+.menu li {
     display: inline;
 }
 
-.titulo{
+.titulo {
     color: rgb(233, 101, 40);
-    background-color:rgba(225, 225, 85, 0.613);
+    background-color: rgba(225, 225, 85, 0.613);
     background-position: center;
     background-size: cover;
     text-align: center;
     width: 100%;
 }
-       
-      
-.imagenprincipal{
+
+
+.imagenprincipal {
     width: 100%;
     text-align: center;
     display: block;
     margin: 0 auto
 }
 
-.nuestrastortas{
-    color:rgb(233, 101, 40);
-    background-color:rgba(225, 225, 85, 0.613);
+.nuestrastortas {
+    color: rgb(233, 101, 40);
+    background-color: rgba(225, 225, 85, 0.613);
     text-align: center;
 }
 
@@ -49,8 +52,10 @@
 .tortas {
 
     text-align: center;
-    list-style-type: none; /* Elimina los estilos de viñeta de la lista */
-    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    list-style-type: none;
+    /* Elimina los estilos de viñeta de la lista */
+    padding: 0;
+    /* Elimina el relleno predeterminado de la lista */
     background-color: rgb(220, 109, 57);
     color: white;
     font-size: larger;
@@ -58,70 +63,246 @@
 }
 
 .tortas li {
-    display: inline-block; /* Muestra los elementos de la lista en línea */
-    margin-right: 20px; /* Agrega un margen derecho entre cada elemento de la lista */
+    display: inline-block;
+    /* Muestra los elementos de la lista en línea */
+    margin-right: 20px;
+    /* Agrega un margen derecho entre cada elemento de la lista */
 }
 
 .tortas li:last-child {
-    margin-right: 0; /* Elimina el margen derecho del último elemento de la lista */
+    margin-right: 0;
+    /* Elimina el margen derecho del último elemento de la lista */
 }
 
 .tortas li img {
-    width: 200px; /* Ancho deseado */
-    height: 200px; /* Altura deseada */
+    width: 200px;
+    /* Ancho deseado */
+    height: 200px;
+    /* Altura deseada */
 }
 
 .tortas li span {
-    display: block; /* Muestra el texto debajo de la imagen */
+    display: block;
+    /* Muestra el texto debajo de la imagen */
 }
 
 
 
 
 
- 
+
 .cafeteria {
 
     text-align: center;
-    list-style-type: none; /* Elimina los estilos de viñeta de la lista */
-    padding: 0; /* Elimina el relleno predeterminado de la lista */
+    list-style-type: none;
+    /* Elimina los estilos de viñeta de la lista */
+    padding: 0;
+    /* Elimina el relleno predeterminado de la lista */
     background-color: rgb(220, 109, 57);
     color: white;
     font-size: larger;
     font-style: oblique;
+
 }
 
 .cafeteria li {
-    display: inline-block; /* Muestra los elementos de la lista en línea */
-    margin-right: 20px; /* Agrega un margen derecho entre cada elemento de la lista */
+    display: inline-block;
+    /* Muestra los elementos de la lista en línea */
+    margin-right: 20px;
+    /* Agrega un margen derecho entre cada elemento de la lista */
 }
 
 .cafeteria li:last-child {
-    margin-right: 0; /* Elimina el margen derecho del último elemento de la lista */
+    margin-right: 0;
+    /* Elimina el margen derecho del último elemento de la lista */
 }
 
 .cafeteria li img {
-    width: 200px; /* Ancho deseado */
-    height: 200px; /* Altura deseada */
+    width: 200px;
+    /* Ancho deseado */
+    height: 200px;
+    /* Altura deseada */
 }
 
 .cafeteria li span {
-    display: block; /* Muestra el texto debajo de la imagen */
+    display: block;
+    /* Muestra el texto debajo de la imagen */
 }
 
-.h2{
-    color:rgb(233, 101, 40);
-    background-color:rgba(225, 225, 85, 0.613);
+.h2 {
+    color: rgb(233, 101, 40);
+    background-color: rgba(225, 225, 85, 0.613);
     text-align: center;
 }
-.footer{
+
+.footer {
     clear: both;
     text-align: left;
     color: black;
     background-color: rgba(228, 219, 62, 0.725);
     font-size: medium;
-    
+
 }
+
 body {
     font-family: "Montserrat", sans-serif;
 }
+
+.contenido_sugerencias {
+    background-color: bisque;
+    border: solid 12px black;
+    line-height: 2rem;
+    width: 30%;
+    padding: 2rem;
+    float: right;
+}
+
+.estiloimagen {
+    width: 100%;
+    padding-top: 10%;
+}
+
+.formulario {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fieldset {
+    border: 1px solid #ccc;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.legend {
+    font-weight: bold;
+}
+
+.form_group {
+    margin-bottom: 1.2rem;
+}
+
+.label {
+    display: block;
+}
+
+.input,
+textarea,
+select {
+    width: 100%;
+}
+
+.input:focus {
+    background-color: rgb(197, 204, 197);
+}
+
+
+.submit-enviar {
+    padding: 1rem 2rem;
+    background-color: rgb(203, 240, 228);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.submit-enviar:hover {
+    background-color: rgb(129, 243, 207);
+}
+
+.submit-enviar:focus {
+    color: rgb(255, 255, 255);
+
+}
+
+/*gradiente*/
+
+.gradientes{
+    height: 20vh;
+   /*background-color:aquamarine; 
+    background-image: linear-gradient( to left, red, yellow);*/
+     background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(225,176,207,1) 15%, rgba(204,179,214,1) 25%, rgba(188,181,220,1) 50%, rgba(171,184,226,1) 75%, rgba(30,118,222,1) 100%);
+  }
+  
+  .rojo{
+    background-color:  red;
+  }
+  
+  .verde{
+  background-color: green;
+  }
+  /*
+  .box_ejemplo{
+  height: 150px;
+  width: 150px;
+  transform: skewY(25deg);
+  }*/
+  
+  .ejemplo div{
+    width: 100px;
+    height: 100px;
+    border: solid 1px;
+    transition: all 2s;
+  }
+  
+  .ejemplo div:hover{
+  /*height: 200px;
+  width: 200px;*/
+  padding: 2rem;
+  background-color: cyan;
+  transform:  skewY(25deg);
+  }
+  
+  .ejemplo2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .input{
+    width: 100px; 
+    height: 100px;
+    transition: all 2s;
+  }
+  
+  .input:focus{
+    width: 200px;
+    font-size: 24px;
+  }
+  .ejemplo3{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    animation-name: fulanito;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+  }
+  
+  
+  @keyframes fulanito {
+    0%{ width: 100px; } 
+        25%{ width: 300px; }
+        50%{ width: 200px; background-color: red; }
+        75%{ width: 300px;
+        height: 120px;
+      }
+        100%{ 
+          width: 100px;
+          background-color:rgb(0, 128, 0);
+        }
+  
+      }
+      @keyframes aparecer{
+        0% {
+          opacity: 0;
+        }
+  
+        100%{
+          opacity: 1;
+        }
+      }
+      .titulo{
+        animation-duration: 3s;
+        animation-name: aparecer;
+        animation-iteration-count:infinite ;
+  
+      }
